@@ -1,0 +1,35 @@
+body {
+    background: #efefef;
+}
+
+.main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    justify-content: center;
+    height: 800px;
+}
+
+.box {
+    height: 100px;
+    flex: 0 0 200px;
+}
+
+.one {
+    background: #e74c3c;
+}
+
+.two {
+    background: #2980b9;
+}
+
+.three {
+    background: #2ecc71;
+}

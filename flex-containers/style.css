@@ -1,0 +1,40 @@
+body {
+    background: #efefef;
+}
+
+.main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    background: #fff;
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+    display: table;
+}
+
+.one {
+    background: #2ecc71;
+}
+
+.two {
+    background: #2980b9;
+}
+
+.three {
+    background: #e74c3c;
+}
+
+.number {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif, Arial;
+    font-size: 20px;
+}

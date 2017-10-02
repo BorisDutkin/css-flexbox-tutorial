@@ -1,0 +1,35 @@
+body {
+    background: #efefef;
+}
+
+.main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    flex: 1 0 200px;
+}
+
+.one {
+    background: #e74c3c;
+    //flex-basis: 100px;
+}
+
+.two {
+    background: #2980b9;
+    //flex-basis: 200px;
+}
+
+.three {
+    background: #2ecc71;
+    //flex-basis: 300px;
+}

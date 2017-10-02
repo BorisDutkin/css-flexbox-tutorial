@@ -1,0 +1,39 @@
+body {
+    background: #efefef;
+}
+
+.main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    background: #fff;
+    flex-wrap: wrap;
+    /*
+    flex-wrap: wrap-reverse;
+    */
+}
+
+.box {
+    height: 100px;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.one {
+    background: #e74c3c;
+    flex-shrink: 1;
+}
+
+.two {
+    background: #2980b9;
+    flex-shrink: 1;
+}
+
+.three {
+    background: #2ecc71;
+    flex-shrink: 1;
+}
